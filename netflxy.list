@@ -1,0 +1,34 @@
+[Rule]
+DOMAIN-SUFFIX,fast.com,Auproxy
+DOMAIN-SUFFIX,netflix.ca,Auproxy
+DOMAIN-SUFFIX,netflix.com,Auproxy
+DOMAIN-SUFFIX,netflix.net,Auproxy
+DOMAIN-SUFFIX,netflixinvestor.com,Auproxy
+DOMAIN-SUFFIX,netflixtechblog.com,Auproxy
+DOMAIN-SUFFIX,nflxext.com,Auproxy
+DOMAIN-SUFFIX,nflximg.com,Auproxy
+DOMAIN-SUFFIX,nflximg.net,Auproxy
+DOMAIN-SUFFIX,nflxsearch.net,Auproxy
+DOMAIN-SUFFIX,nflxso.net,Auproxy
+DOMAIN-SUFFIX,nflxvideo.net,Auproxy
+
+# DNS test
+DOMAIN-SUFFIX,netflixdnstest1.com,Auproxy
+DOMAIN-SUFFIX,netflixdnstest2.com,Auproxy
+DOMAIN-SUFFIX,netflixdnstest3.com,Auproxy
+DOMAIN-SUFFIX,netflixdnstest4.com,Auproxy
+DOMAIN-SUFFIX,netflixdnstest5.com,Auproxy
+DOMAIN-SUFFIX,netflixdnstest6.com,Auproxy
+DOMAIN-SUFFIX,netflixdnstest7.com,Auproxy
+DOMAIN-SUFFIX,netflixdnstest8.com,Auproxy
+DOMAIN-SUFFIX,netflixdnstest9.com,Auproxy
+DOMAIN-SUFFIX,netflixdnstest10.com,Auproxy
+
+# regular expression
+RULE-SET,regexp:(^|\.)apiproxy-device-prod-nlb-.+\.amazonaws\.com$,Auproxy
+RULE-SET,regexp:(^|\.)apiproxy-website-nlb-prod-.+\.amazonaws\.com$,Auproxy
+RULE-SET,regexp:(^|\.)dualstack\.apiproxy-.+\.amazonaws\.com$,Auproxy
+RULE-SET,regexp:(^|\.)dualstack\.ichnaea-web-.+\.amazonaws\.com$,Auproxy
+
+# Full
+DOMAIN,netflix.com.edgesuite.net,Auproxy
